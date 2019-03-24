@@ -1,0 +1,96 @@
+    1  cd downloads
+    2  cd downloads/
+    3  git clone https://github.com/Vishaldhatwalia/Gitrepo.git
+    4  pwd
+    5  cd Gitrepo/
+    6  ls
+    7  git log
+    8  git show
+    9  git rev-list -all --count
+   10  git rev-list --all --count
+   11  vi index.html
+   12  git ls-files
+   13  ls
+   14  git status
+   15  git ls-file
+   16  git ls-files
+   17  git config user.name "Vishal Dhatwalia"
+   18  git config user.email "vishaldhatwalia77@gmail.com"
+   19  vi contact.html
+   20  git status
+   21  git add index.html
+   22  git add contact.html
+   23  git status
+   24  git commit - m "This is a commit"
+   25  git commit - m "created contact.html"
+   26  git commit -m "created contact.html"
+   27  vi about.html
+   28  git status
+   29  vi contact.html
+   30  git status
+   31  git add .
+   32  git status
+   33  git -m "editing the file:
+   34  git -m "editing the file"
+   35  git -m "editing the file contact.html"
+   36  git commit -m "edited file"
+   37  git log
+   38  git -a -m "commited"
+   39  git commit -a -m "commited"
+   40  git status
+   41  git log
+   42  git log --oneline
+   43  cd gitclasses
+   44  git status
+   45  cd gitrepo
+   46  git status
+   47  vi contact.html
+   48  git status
+   49  git commit -a -m "modified file contact.html"
+   50  git status
+   51  git log
+   52  git log -oneline
+   53  git log --oneline
+   54  vi index.html
+   55  git status --oneline
+   56  git --oneline
+   57  git log --oneline
+   58  git diff index.thml
+   59  git diff index.html
+   60  git status
+   61  git add .
+   62  git status
+   63  git diff --cached index.html
+   64  git status
+   65  git commit index.html
+   66  git status
+   67  vi contact.html
+   68  git status
+   69  git add*
+   70  git add *
+   71  git status
+   72  git reset head contact.html
+   73  git status
+   74  rm contact.html
+   75  git status
+   76  ls
+   77  git rm contact.html
+   78  git status
+   79  git commit "deleted files"
+   80  git commit -m "deleted files"
+   81  git status
+   82  git reset HEAD contact.html
+   83  git statzus
+   84  git status
+   85  ls
+   86  git ls-files
+   87  git revert HEAD
+   88  git status
+   89  git ls-files
+   90  git checckout --contact.html
+   91  git checkout --contact.html
+   92  git checkout -- contact.html
+   93  ls
+   94  ls -l
+   95  git status
+   96  history > commands24thmarch.txt
